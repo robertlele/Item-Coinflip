@@ -1,0 +1,27 @@
+name: Item Coinflip
+version: ${project.version}
+main: me.robertle.itemcoinflip.Core
+api-version: 1.13
+load: STARTUP
+authors: [poo]
+description: Item Coinflip is a small plugin that allows players to 50/50 their items and money.
+commands:
+  coinflip:
+    description: Base command for the Item Coinflip plugin.
+    usage: /cf
+    aliases: [cf]
+  coinflip accept:
+    description: Base command for the Item Coinflip plugin.
+    usage: /cf accept
+    permission: coinflip.player
+    aliases: [cf accept]
+  coinflip decline:
+    description: Base command for the Item Coinflip plugin.
+    usage: /cf decline
+    permission: coinflip.player
+    aliases: [cf decline]
+  coinflip reload:
+    description: Base command for the Item Coinflip plugin.
+    usage: /cf reload
+    permission: coinflip.admin
+    aliases: [cf]

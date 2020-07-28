@@ -1,0 +1,13 @@
+#Config for Item Coinflip
+#Developer: Poo
+#Version: 1.0
+
+Prefix: '&f[&a&lCoinflip&f] '
+No Permission: '&cInsufficient Permissions.'
+
+# Variables:
+# %amount% - Item Amount
+# %item% - Item Name
+# %money% - Money Amount
+Receive Item: '+ &l%amount% &r%item%'
+Receive Money: '+ &a$%money%'
